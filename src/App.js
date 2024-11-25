@@ -19,6 +19,8 @@ import AlbumABM from './components/AlbumABM';
 import PhotoABM from './components/PhotoABM';
 import AttachmentABM from './components/AttachmentABM';
 import EntityTagABM from './components/EntityTagABM';
+import SocialNetworkABM from './components/SocialNetworkABM';
+
 
 
 
@@ -43,6 +45,7 @@ function App() {
         <Route path="/PhotoABM" element={<PhotoABM />} />
         <Route path="/AttachmentABM" element={<AttachmentABM />} />
         <Route path="/EntityTagABM" element={<EntityTagABM />} />
+        <Route path="/SocialNetworkABM" element={<SocialNetworkABM />} />
 
         {/* Rutas protegidas */}
         <Route 
